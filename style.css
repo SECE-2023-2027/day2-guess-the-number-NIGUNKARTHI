@@ -1,0 +1,102 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  font-family: 'Press Start 2P', cursive;
+  color: #00ffcc;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border: 2px solid #00ffcc;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 2rem 0;
+  text-shadow: 2px 2px #00ffcc;
+}
+
+.between {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #ffcc00;
+}
+
+.number-box {
+  font-size: 5rem;
+  background-color: #00ffcc;
+  color: #111;
+  width: 140px;
+  height: 140px;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffcc;
+}
+
+.left-panel {
+  margin: 2rem 0;
+}
+
+.guess {
+  padding: 0.6rem;
+  width: 120px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000;
+  color: #00ffcc;
+  border: 2px solid #00ffcc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 0.9rem 2rem;
+  margin: 1rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  background-color: #00ffcc;
+  color: #000;
+  border: 2px solid #00ffcc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00e6b8;
+  color: #111;
+  transform: scale(1.05);
+}
+
+.right-panel {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+}
+
+.message,
+.label-score,
+.label-highscore {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #ffffff;
+}
